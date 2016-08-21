@@ -1,0 +1,34 @@
+{
+  "name": "FizzVR",
+  "version": "1.0.0",
+  "description": "Desarrollo Web NodeJS Quito Ecuador",
+  "homepage": "https://fizzvr.github.io",
+  "url": "https://github.com/fizzvr/fizzvr.github.io",
+  "author": "Vladimir Rodríguez <fizzvr@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "4.4.5",
+    "npm": "3.10.6"
+  },
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fizzvr/fizzvr.github.io.git"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csso": "^2.0.1",
+    "grunt-exec": "^1.0.0"
+  },
+  "devDependencies": {
+    "load-grunt-tasks": "^3.5.0",
+    "time-grunt": "^1.4.0"
+  },
+  "scripts": {
+    "start": "grunt serve"
+  }
+}
